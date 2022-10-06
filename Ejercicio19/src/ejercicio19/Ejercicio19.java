@@ -98,7 +98,7 @@ public class Ejercicio19 {
         {
             for (int j = i; j < c; j++) 
             {
-                if(matrizEnteros[i][j] + matTranspuesta[i][j] != 0)
+                if(matrizEnteros[i][j] != (-1) * matTranspuesta[i][j])
                 {
                     return false;
                 }
